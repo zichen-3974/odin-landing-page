@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
 
 * {
     font-family: Roboto, sans-serif;
@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    width: 100vw;
 }
 
 .header, .main {
@@ -43,13 +44,13 @@ a:hover {
 }
 
 .main {
-    gap:40px;
+    gap:20px;
     display: flex;
-    padding: 0 50px;
 }
 
 .left-main {
-    padding-top: 50px;
+    padding-top: 10px;
+    flex:1;
 }
 
 #main-text {
@@ -59,9 +60,15 @@ a:hover {
     margin-bottom: 8px;
 }
 
-#secondary-text {
+.secondary-text {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.dark-secondary-text {
+    color: #1f2937;
+    font-size: 18px;
+    text-align: center;
 }
 
 #sign-up {
@@ -79,11 +86,64 @@ a:hover {
 }
 
 #main-img {
-    max-width: 400px;
-    max-height: 500px;
-    clip-path: circle(180px at 50% 50%);
+    width: 300px;
+    clip-path: circle(130px at 50% 50%);
     position: relative;
     top: -40px;
     display: block;
     object-fit: cover;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+}
+
+.info-header-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.random-info-main-frame {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.random-info-img {
+    width: 150px;
+    object-fit: cover;
+    height: 150px;
+}
+
+.random-info-col {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 50px 100px;
+}
+
+#quote-text {
+    font-size: 24px;
+    font-weight: 100;
+    color: #1f2937;
+    opacity: 0.7;
+}
+
+#quote-credit {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: end;
 }
