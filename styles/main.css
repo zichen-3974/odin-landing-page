@@ -157,6 +157,7 @@ a:hover {
     padding: 10px 50px;
     gap: 20px;
     overflow: auto;
+    justify-content: space-between;
 }
 
 button {
