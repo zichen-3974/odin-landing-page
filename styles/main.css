@@ -75,10 +75,10 @@ a:hover {
 .sign-up {
     background-color: #3882f6;
     color: white;
-    border-color: transparent;
     border-radius: 7px;
     padding: 10px 20px;
     font-size: 15px;
+    border-color: white;
 }
 
 .sign-up:hover {
@@ -159,10 +159,11 @@ a:hover {
     overflow: auto;
 }
 
-.white-border {
-    border-color: white;
+button {
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0;
     flex:none;
-    margin:auto;
 }
 
 #main-call-text {
@@ -174,4 +175,12 @@ a:hover {
 #sub-call-text {
     color: #e5e7eb;
     font-size: 10px;
+}
+
+.credits {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
 }
