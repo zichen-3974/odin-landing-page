@@ -16,6 +16,7 @@ body {
     justify-content: space-between;
     background-color: #1f2937;
     padding: 10px 50px;
+    overflow: auto;
 }
 
 ul {
@@ -71,7 +72,7 @@ a:hover {
     text-align: center;
 }
 
-#sign-up {
+.sign-up {
     background-color: #3882f6;
     color: white;
     border-color: transparent;
@@ -80,7 +81,7 @@ a:hover {
     font-size: 15px;
 }
 
-#sign-up:hover {
+.sign-up:hover {
     color: #3882f6;
     background-color: white;
 }
@@ -146,4 +147,31 @@ a:hover {
     font-weight: bold;
     color: #1f2937;
     text-align: end;
+}
+
+.call-to-action {
+    display: flex;
+    margin: 50px 100px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 10px 50px;
+    gap: 20px;
+    overflow: auto;
+}
+
+.white-border {
+    border-color: white;
+    flex:none;
+    margin:auto;
+}
+
+#main-call-text {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+#sub-call-text {
+    color: #e5e7eb;
+    font-size: 10px;
 }
