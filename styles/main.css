@@ -10,7 +10,7 @@ body {
     margin: 0;
 }
 
-.header {
+.header, .main {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
@@ -22,14 +22,14 @@ ul {
     gap: 10px;
     list-style: none;
     align-items: center;
+    margin:0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
     padding: 10px;
     border-radius: 5px;
-    font-size: 18px;
 }
 
 a:hover {
@@ -40,4 +40,50 @@ a:hover {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.main {
+    gap:40px;
+    display: flex;
+    padding: 0 50px;
+}
+
+.left-main {
+    padding-top: 50px;
+}
+
+#main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: 8px;
+}
+
+#secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#sign-up {
+    background-color: #3882f6;
+    color: white;
+    border-color: transparent;
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+#sign-up:hover {
+    color: #3882f6;
+    background-color: white;
+}
+
+#main-img {
+    max-width: 400px;
+    max-height: 500px;
+    clip-path: circle(180px at 50% 50%);
+    position: relative;
+    top: -40px;
+    display: block;
+    object-fit: cover;
 }
